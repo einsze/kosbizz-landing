@@ -8,7 +8,7 @@ export function Hero() {
       <div
         className="absolute inset-0 opacity-[0.12] pointer-events-none mix-blend-luminosity"
         style={{
-          backgroundImage: "url('/hero-bg.png')",
+          backgroundImage: "url('/bg_hero.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

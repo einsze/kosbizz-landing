@@ -47,8 +47,8 @@ export function Navbar({ variant = 'transparent' }: NavbarProps) {
             >
               Fitur
             </Link>
-            <a
-              href="#plan"
+            <Link
+              href="/#plan"
               className={`hidden sm:inline text-sm font-medium transition ${
                 isTransparent
                   ? 'text-white/80 hover:text-white'
@@ -56,9 +56,9 @@ export function Navbar({ variant = 'transparent' }: NavbarProps) {
               }`}
             >
               Plan
-            </a>
-            <a
-              href="#partner"
+            </Link>
+            <Link
+              href="/#partner"
               className={`text-sm font-semibold px-4 py-2 rounded-lg transition ${
                 isTransparent
                   ? 'bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur'
@@ -66,7 +66,7 @@ export function Navbar({ variant = 'transparent' }: NavbarProps) {
               }`}
             >
               Untuk Partner
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ export const config = {
     waNumber: '628XXXXXXXXXX',
     waMessage: 'halo',
     email: 'hello@kosbizz.com',
-    location: 'Jakarta, Indonesia',
+    location: 'Tangerang, Indonesia',
   },
   siteUrl: 'https://kosbizz.com',
 };

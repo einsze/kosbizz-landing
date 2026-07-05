@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'Apakah bisa integrasi dengan sistem accounting yang sudah kami pakai?',
-    a: 'Untuk plan Business, kami menyediakan API access (di Fase 2 pengembangan) yang bisa diintegrasikan dengan sistem accounting Anda. Untuk kebutuhan integrasi khusus, silakan konsultasi Enterprise.',
+    a: 'Untuk plan Business, kami menyediakan API access yang bisa diintegrasikan dengan sistem accounting Anda. Untuk kebutuhan integrasi khusus, silakan konsultasi Enterprise.',
   },
   {
     q: 'Bagaimana kalau saya sebagai Partner mau berhenti berlangganan?',

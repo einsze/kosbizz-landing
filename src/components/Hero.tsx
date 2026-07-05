@@ -4,15 +4,20 @@ import { Navbar } from './Navbar';
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-brand-gradient text-white">
-      {/* Sketch background overlay */}
+      {/* Sketch background overlay - full coverage with dark gradient overlay for text legibility */}
       <div
-        className="absolute inset-0 opacity-[0.12] pointer-events-none mix-blend-luminosity"
+        className="absolute inset-0 pointer-events-none"
         style={{
           backgroundImage: "url('/bg_hero.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
+        aria-hidden="true"
+      />
+      {/* Dark gradient overlay untuk keep text readable */}
+      <div
+        className="absolute inset-0 pointer-events-none bg-gradient-to-r from-brand-purple/95 via-brand-blue/70 to-brand-navy/60"
         aria-hidden="true"
       />
 

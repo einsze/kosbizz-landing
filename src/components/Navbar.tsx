@@ -20,7 +20,7 @@ export function Navbar({ variant = 'transparent' }: NavbarProps) {
             <img
               src="/logo.png"
               alt="KosBizz"
-              className="h-11 w-auto"
+              className="h-16 sm:h-20 w-auto object-contain"
             />
           </Link>
 

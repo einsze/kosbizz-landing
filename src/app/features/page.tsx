@@ -166,7 +166,7 @@ export default function FeaturesPage() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            backgroundImage: "url('/bg_fitur.png')",
+            backgroundImage: "url('/bg_fitur.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',

@@ -4,6 +4,18 @@ import { Navbar } from './Navbar';
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-brand-gradient text-white">
+      {/* Sketch background overlay */}
+      <div
+        className="absolute inset-0 opacity-[0.12] pointer-events-none mix-blend-luminosity"
+        style={{
+          backgroundImage: "url('/hero-bg.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+        aria-hidden="true"
+      />
+
       {/* Blob background effects */}
       <div className="hero-blob w-[500px] h-[500px] bg-brand-accent -top-40 -right-40" />
       <div className="hero-blob w-[400px] h-[400px] bg-cyan-500 -bottom-32 -left-32" />

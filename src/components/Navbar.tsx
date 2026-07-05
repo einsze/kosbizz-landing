@@ -16,23 +16,12 @@ export function Navbar({ variant = 'transparent' }: NavbarProps) {
       <div className="container-content">
         <div className="flex items-center justify-between py-5 sm:py-6">
           {/* Brand */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div
-              className={`w-9 h-9 rounded-lg flex items-center justify-center font-black text-lg ${
-                isTransparent
-                  ? 'bg-white/15 text-white backdrop-blur border border-white/20'
-                  : 'bg-brand-gradient text-white'
-              }`}
-            >
-              K
-            </div>
-            <span
-              className={`font-extrabold text-lg tracking-tight ${
-                isTransparent ? 'text-white' : 'text-brand-purple'
-              }`}
-            >
-              KosBizz
-            </span>
+          <Link href="/" className="flex items-center group">
+            <img
+              src="/logo.png"
+              alt="KosBizz"
+              className="h-11 w-auto"
+            />
           </Link>
 
           {/* Nav links */}

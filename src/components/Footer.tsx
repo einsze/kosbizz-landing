@@ -9,13 +9,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-brand-gradient flex items-center justify-center font-black text-lg">
-                K
-              </div>
-              <span className="font-extrabold text-lg text-white">
-                KosBizz
-              </span>
+            <div className="mb-4">
+              <img
+                src="/logo.png"
+                alt="KosBizz"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
               {config.brand.tagline}.

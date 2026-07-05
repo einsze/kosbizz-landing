@@ -13,7 +13,7 @@ export function Footer() {
               <img
                 src="/logo.png"
                 alt="KosBizz"
-                className="h-20 w-auto object-contain"
+                className="h-24 w-auto object-contain"
               />
             </div>
             <p className="text-sm text-white/60 leading-relaxed">

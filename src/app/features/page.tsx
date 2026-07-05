@@ -162,6 +162,23 @@ export default function FeaturesPage() {
     <main>
       {/* Hero */}
       <section className="relative overflow-hidden bg-brand-gradient text-white">
+        {/* Sketch background full-bleed */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backgroundImage: "url('/bg_fitur.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+          aria-hidden="true"
+        />
+        {/* Dark gradient overlay untuk keep text readable */}
+        <div
+          className="absolute inset-0 pointer-events-none bg-gradient-to-r from-brand-purple/95 via-brand-blue/70 to-brand-navy/60"
+          aria-hidden="true"
+        />
+
         <div className="hero-blob w-[500px] h-[500px] bg-brand-accent -top-40 -right-40" />
         <div className="hero-blob w-[400px] h-[400px] bg-cyan-500 -bottom-32 -left-32" />
 

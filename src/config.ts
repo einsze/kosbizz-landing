@@ -1,6 +1,5 @@
 /**
  * Konfigurasi global untuk landing page.
- * TODO: Isi WA number dan email yang final.
  */
 export const config = {
   brand: {
@@ -9,9 +8,7 @@ export const config = {
     domain: 'kosbizz.com',
   },
   contact: {
-    // TODO: Ganti dengan WA number final (format tanpa + dan tanda kurung)
-    // Contoh: '628123456789'
-    waNumber: '628XXXXXXXXXX',
+    waNumber: '6285218028600',
     waMessage: 'halo',
     email: 'hello@kosbizz.com',
     location: 'Tangerang, Indonesia',

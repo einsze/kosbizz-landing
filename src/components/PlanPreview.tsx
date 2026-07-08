@@ -5,7 +5,7 @@ const tiers = [
     name: 'Starter',
     tagline: 'Untuk kost/kontrakan tunggal',
     priceIdr: '149.000',
-    trial: '1 bulan free trial',
+    trial: '2 bulan free trial',
     highlight: false,
     features: [
       '1 property, max 20 unit',
@@ -21,7 +21,7 @@ const tiers = [
     name: 'Growth',
     tagline: 'Untuk multi-property menengah',
     priceIdr: '399.000',
-    trial: '1 bulan free trial',
+    trial: '2 bulan free trial',
     highlight: true,
     badge: 'Paling Populer',
     features: [

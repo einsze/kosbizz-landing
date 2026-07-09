@@ -9,7 +9,7 @@ export const config = {
   },
   contact: {
     waNumber: '6285218028600',
-    waMessage: 'halo',
+    waMessage: '',
     email: 'hello@kosbizz.com',
     location: 'Tangerang, Indonesia',
   },
@@ -17,9 +17,11 @@ export const config = {
 };
 
 /**
- * Generate WA link dengan pesan pre-filled
+ * Generate WA link. Kalau tidak ada pesan (default), link tanpa ?text= —
+ * biar pengunjung ketik sendiri (lebih natural, tidak terasa macro-based).
  */
 export function waLink(customMessage?: string): string {
-  const msg = encodeURIComponent(customMessage ?? config.contact.waMessage);
-  return `https://wa.me/${config.contact.waNumber}?text=${msg}`;
+  const msg = customMessage ?? config.contact.waMessage;
+  const base = `https://wa.me/${config.contact.waNumber}`;
+  return msg ? `${base}?text=${encodeURIComponent(msg)}` : base;
 }

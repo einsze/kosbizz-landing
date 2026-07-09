@@ -59,7 +59,7 @@ export function Hero() {
           {/* CTA */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-10">
             <a
-              href={waLink('halo, saya ingin cari properti')}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-base sm:text-lg w-full sm:w-auto"

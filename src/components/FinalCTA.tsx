@@ -26,7 +26,7 @@ export function FinalCTA() {
               Hasil match akan datang dalam hitungan detik.
             </p>
             <a
-              href={waLink('halo, saya ingin cari properti')}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary w-full"
@@ -44,7 +44,7 @@ export function FinalCTA() {
               offline untuk verifikasi properti dan onboarding.
             </p>
             <a
-              href={waLink('halo, saya pemilik properti dan ingin jadi Partner')}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 px-6 py-3.5 bg-white text-brand-purple font-bold rounded-xl hover:bg-slate-100 transition-all"

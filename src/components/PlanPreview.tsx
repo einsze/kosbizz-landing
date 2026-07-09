@@ -158,7 +158,7 @@ export function PlanPreview() {
 
               {/* CTA */}
               <a
-                href={waLink(`halo, saya tertarik dengan plan ${tier.name}`)}
+                href={waLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`block w-full text-center py-3.5 rounded-xl font-bold transition-all mb-8 ${
@@ -220,7 +220,7 @@ export function PlanPreview() {
               </p>
             </div>
             <a
-              href={waLink('halo, saya ingin konsultasi Enterprise')}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-2 px-6 py-3.5 bg-white text-brand-navy font-bold rounded-xl hover:bg-slate-100 transition-all"

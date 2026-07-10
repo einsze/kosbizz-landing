@@ -8,7 +8,7 @@ const tiers = [
     trial: '2 bulan free trial',
     highlight: false,
     features: [
-      '1 property, max 20 unit',
+      '1 property, max 30 unit',
       '1 staff',
       '100 broadcast/bulan',
       '20 KTP OCR/bulan',

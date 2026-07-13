@@ -1,4 +1,8 @@
+import { config } from '@/config';
+
 export function PartnerBanner() {
+  const dashboardUrl = config.dashboardUrl;
+
   return (
     <section
       id="partner"
@@ -29,9 +33,22 @@ export function PartnerBanner() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            {dashboardUrl && (
+              <a
+                href={`${dashboardUrl}/signup`}
+                className="inline-flex items-center gap-2 px-6 py-3.5 sm:px-8 sm:py-4 bg-white text-brand-purple font-bold rounded-xl hover:bg-slate-100 transition-all shadow-lg hover:-translate-y-0.5"
+              >
+                Daftar Gratis
+                <ArrowIcon />
+              </a>
+            )}
             <a
               href="/features/"
-              className="inline-flex items-center gap-2 px-6 py-3.5 sm:px-8 sm:py-4 bg-white text-brand-purple font-bold rounded-xl hover:bg-slate-100 transition-all shadow-lg hover:-translate-y-0.5"
+              className={`inline-flex items-center gap-2 px-6 py-3.5 sm:px-8 sm:py-4 ${
+                dashboardUrl
+                  ? 'bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur'
+                  : 'bg-white text-brand-purple hover:bg-slate-100 shadow-lg'
+              } font-bold rounded-xl transition-all hover:-translate-y-0.5`}
             >
               Lihat Semua Fitur
               <ArrowIcon />

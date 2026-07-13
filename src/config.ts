@@ -14,10 +14,6 @@ export const config = {
     location: 'Tangerang, Indonesia',
   },
   siteUrl: 'https://kosbizz.com',
-  // Dashboard app URL — Partner signup lives di /signup path.
-  // Update ini saat app di-deploy (mis. https://app.kosbizz.com).
-  // Kosongkan untuk hide CTA signup di landing.
-  dashboardUrl: 'https://app.kosbizz.com',
 };
 
 /**
